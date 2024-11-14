@@ -5,7 +5,6 @@ export default function LoginPage() {
     <div>
       <h1>Login</h1>
       <button onClick={() => signIn("google")}>Sign in with Google</button>
-      <button onClick={() => signIn("facebook")}>Sign in with Facebook</button>
     </div>
   );
 }
